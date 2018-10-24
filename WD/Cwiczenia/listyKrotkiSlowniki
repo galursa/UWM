@@ -1,0 +1,19 @@
+ulubieniWykonawcy=["Depeche Mode",1125,
+                   "Jan Sebastian Bach",
+                   ["Appollo440","Tm 2.3"]]
+
+print(ulubieniWykonawcy)
+print(ulubieniWykonawcy[1])
+print(ulubieniWykonawcy[3][0])
+
+ulubieniWykonawcy1=("Depeche Mode",1125,
+                   "Jan Sebastian Bach",
+                   ["Appollo440","Tm 2.3"])
+
+print(ulubieniWykonawcy1)
+
+ulubieniWykonawcy[3]="Jackson 5"
+#print(ulubieniWykonawcy)
+
+ulubieniWykonawcy1[3][0]="Michael Jackson"
+print(ulubieniWykonawcy1)

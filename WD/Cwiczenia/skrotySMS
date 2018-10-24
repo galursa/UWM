@@ -1,0 +1,8 @@
+skrotySMS={"lol":"laughing out loud",
+           "luv":"love",
+           "lo":"hello",
+           "asap":"as soon as possible",
+           "omg":"Oh my God"}
+
+print(skrotySMS)
+print(skrotySMS["omg"])

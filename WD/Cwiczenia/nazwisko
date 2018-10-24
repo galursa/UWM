@@ -1,0 +1,8 @@
+#python 2.7
+imie=raw_input("Proszê podaæ imiê")
+nazwisko=raw_input("Proszê podaæ nazwisko")
+liczba=raw_input("Proszê podaæ ulubion¹ liczbê")
+liczba=int(liczba) #komentarz
+liczba=liczba**2
+print(imie.capitalize()+" "+nazwisko.capitalize())
+print("Ulubiona liczba do kwadratu to "+str(liczba))

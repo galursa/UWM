@@ -1,0 +1,70 @@
+\documentclass{article}
+\usepackage[a4paper,left=3.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm]{geometry}
+\usepackage[MeX]{polski}
+\usepackage[cp1250]{inputenc}
+%\usepackage{polski}
+%\usepackage[utf8]{inputenc}
+\usepackage[pdftex]{hyperref}
+\usepackage{makeidx}
+\usepackage[tableposition=top]{caption}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{enumerate}
+\usepackage{multirow}
+\usepackage{amsmath} %pakiet matematyczny
+\usepackage{amssymb} %pakiet dodatkowych symboli
+\usepackage{minted}
+\begin{document}
+Tu umieszczamy kod TeXa, ktory bedzie kompilowany, $\sum$. Wiêcej tekstu
+\begin{displaymath}
+	S^{C_{i}}(a)=\frac{(\overline{C}^{a}_{i}-\widehat{C}^{a}_{i})^2}{Z_{\overline{C}^{{a}^2}_{i}}+Z_{\widehat{C}^{{a}^2}_{i}}}, a \in A.
+\end{displaymath}
+
+\begin{equation}
+\left[ 
+\begin{array}{cccc}
+a_{11} & a_{12} & \ldots & a_{1K} \\
+a_{21} & a_{22} & \ldots & a_{1K} \\
+\vdots & \vdots & \ddots & \vdots  \\
+a_{K1} & a_{K2} & \ldots & a_{KK} \\
+\end{array}
+\right]*
+\left[
+\begin{array}{c}
+x_1 \\
+x_2 \\
+\vdots\\
+x_K \\
+\end{array}
+\right] =
+\left[
+\begin{array}{c}
+b_1 \\
+b_2 \\
+\vdots\\
+b_K \\
+\end{array}
+\right]
+\end{equation}
+\begin{verbatim}
+for(int i=0;i<10;i++)
+{
+	cout<<"i="<<i;
+}
+\end{verbatim}
+
+\begin{algorithmic}
+\FOR{i=0,1,$\ldots$,10}
+	\item{\verb+cout<<"i="<<i;+}
+\ENDFOR
+\end{algorithmic}
+\begin{minted}{c}
+for(int i=0;i<10;i++)
+{
+	printf("Hello world");
+	return 0;
+}
+\end{minted}
+
+
+\end{document}

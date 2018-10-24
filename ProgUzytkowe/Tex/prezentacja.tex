@@ -1,0 +1,61 @@
+\documentclass[]{beamer}
+\usepackage[MeX]{polski}
+\usepackage[cp1250]{inputenc}
+%\usepackage{polski}
+%\usepackage[utf8]{inputenc}
+\beamersetaveragebackground{blue!10}
+\usetheme{Warsaw}
+\usecolortheme[rgb={0.1,0.5,0.7}]{structure}
+\usepackage{beamerthemesplit}
+\usepackage{multirow}
+\usepackage{multicol}
+\usepackage{array}
+\usepackage{graphicx}
+\usepackage{enumerate}
+\usepackage{amsmath} %pakiet matematyczny
+\usepackage{amssymb} %pakiet dodatkowych symboli
+
+\title{Prezentacja na temat \TeX a}
+\date{}
+
+\begin{document}
+
+\frame
+{
+\maketitle
+}
+\frame
+{
+	\frametitle{Bloki w \TeX u}
+	\begin{block}
+	{Przyk³adowy blok w \TeX u}
+	Tu wpisujemy treœæ
+	\end{block}
+	\begin{exampleblock}
+	{A to jest blok do przyk³adów}
+	Na przyk³ad
+	\end{exampleblock}
+	\begin{alertblock}
+	{Uwaga!}
+	U¿ywamy gdy chcemy podkreœliæ coœ wa¿nego.
+	\end{alertblock}
+}
+\frame
+{
+	\frametitle{Podpunkty i widocznoœæ}
+	Zagadnienia z \TeX a, które omawialiœmy na æwiczeniach z programów u¿ytkowych
+	\begin{itemize}
+		\item<1-3> sk³adanie tekstu w \TeX u
+		\item<2-3> wzory matematyczne i œrodowisko algorithmic
+		\item<2-4> tabele, rysunki
+		\item<3-4> pakiet beamer - do tworzenia prezentacji
+	\end{itemize}
+}
+\frame
+{
+	\frametitle{wzór matematyczny}
+	\begin{displaymath}
+		a^2+b+c-5=0
+	\end{displaymath}
+}
+\end{document}

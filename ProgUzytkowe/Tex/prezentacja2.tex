@@ -1,0 +1,57 @@
+\documentclass[]{beamer}
+\usepackage[MeX]{polski}
+\usepackage[cp1250]{inputenc}
+%\usepackage{polski}
+%\usepackage[utf8]{inputenc}
+\beamersetaveragebackground{blue!10}
+\usetheme{Warsaw}
+\usecolortheme[rgb={0.1,0.5,0.7}]{structure}
+\usepackage{beamerthemesplit}
+\usepackage{multirow}
+\usepackage{multicol}
+\usepackage{array}
+\usepackage{graphicx}
+\usepackage{enumerate}
+\usepackage{amsmath} %pakiet matematyczny
+\usepackage{amssymb} %pakiet dodatkowych symboli
+
+\title{Przykladowy pusty Beamer}
+\date{}
+
+\begin{document}
+
+\frame
+{
+	\maketitle
+}
+\frame
+{
+	\frametitle{Przyk³ady u¿ycia bloków}
+	\begin{block}
+		{To jest zwyk³y blok}
+		Tutaj umieœcimy jego treœæ
+	\end{block}
+	\begin{exampleblock}
+		{To jest przyk³ad}
+		\texttt{for(int i=0;i<n;i++)cout<<"Hello world";}
+	\end{exampleblock}
+	\begin{alertblock}
+		{Uwaga!}
+		Tu wpisujemy tekst, który wymaga podkreœlenia.
+	\end{alertblock}
+}
+
+\frame
+{
+\frametitle{Omówione zagadnienia z Texa}
+\begin{enumerate}
+	\item <1-2>formatowanie tekstu i bibliografia
+	\item <3-4>wzory matematyczne i pakiet algorithmic
+	\item <2-3>tabele i obrazki
+	\item <3-4>pakiet beamer do tworzenia prezentacji
+\end{enumerate}
+}
+
+
+
+\end{document}
